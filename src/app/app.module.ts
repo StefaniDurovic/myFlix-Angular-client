@@ -18,6 +18,10 @@ import { MovieCardComponent } from './movie-card/movie-card.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 import { MatIconModule } from '@angular/material/icon';
 import { UserLoginFormComponent } from './user-login-form/user-login-form.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ProfileOverviewComponent } from './profile-overview/profile-overview.component';
+import { ProfileEditFormComponent } from './profile-edit-form/profile-edit-form.component';
+import {MatToolbarModule} from "@angular/material/toolbar";
 
 
 @NgModule({
@@ -26,7 +30,10 @@ import { UserLoginFormComponent } from './user-login-form/user-login-form.compon
     UserRegistrationFormComponent,
     MovieCardComponent,
     WelcomePageComponent,
-    UserLoginFormComponent
+    UserLoginFormComponent,
+    NavbarComponent,
+    ProfileOverviewComponent,
+    ProfileEditFormComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +47,8 @@ import { UserLoginFormComponent } from './user-login-form/user-login-form.compon
     MatDialogModule,
     MatSnackBarModule,
     FormsModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
