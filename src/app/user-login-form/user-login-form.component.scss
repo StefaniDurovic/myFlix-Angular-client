@@ -1,18 +1,23 @@
-.card {
-    width: fit-content;
-}
-
 .formField {
     display: block;
     position: static;
     padding: 1em;
-}
-
-.button {
-    position: center;
-}
-
-.text {
-    position: center;
-    text-align: center;
-}
+  }
+  
+  .dialog {
+    padding: 2em;
+    max-width: 500px;
+  }
+  
+  .header {
+    justify-content: space-between;
+    padding-bottom: 2em;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .content {
+    justify-content: space-between;
+  }

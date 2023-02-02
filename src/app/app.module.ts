@@ -22,6 +22,9 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ProfileOverviewComponent } from './profile-overview/profile-overview.component';
 import { ProfileEditFormComponent } from './profile-edit-form/profile-edit-form.component';
 import {MatToolbarModule} from "@angular/material/toolbar";
+import { MovieDetailsDialogComponent } from './movie-details-dialog/movie-details-dialog.component';
+import { GenreDialogComponent } from './genre-dialog/genre-dialog.component';
+import { DirectorDialogComponent } from './director-dialog/director-dialog.component';
 
 
 @NgModule({
@@ -33,7 +36,10 @@ import {MatToolbarModule} from "@angular/material/toolbar";
     UserLoginFormComponent,
     NavbarComponent,
     ProfileOverviewComponent,
-    ProfileEditFormComponent
+    ProfileEditFormComponent,
+    MovieDetailsDialogComponent,
+    GenreDialogComponent,
+    DirectorDialogComponent
   ],
   imports: [
     BrowserModule,

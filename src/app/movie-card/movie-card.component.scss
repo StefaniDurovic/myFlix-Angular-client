@@ -1,10 +1,17 @@
 .image {
-    width: 100%;
-    height: 70%;
-    float: center;
-    display: inline;
+  width: 100%;
+  height: 70%;
+  float: center;
+  display: inline;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+@media only screen {
+  .scrollable-element {
+    height: auto;
+    overflow-y: scroll;
   }
-  
-  .header {
-    margin-bottom: 20px;
-  }
+}

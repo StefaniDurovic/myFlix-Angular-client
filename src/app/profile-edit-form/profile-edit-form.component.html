@@ -1,8 +1,8 @@
-<mat-card class="card">
-    <mat-card-header>
-      <mat-card-title>Edit Profile</mat-card-title>
+<mat-card class="dialog">
+    <mat-card-header class="header">
+      <mat-card-title class="title">Edit Profile</mat-card-title>
     </mat-card-header>
-    <mat-card-content>
+    <mat-card-content class="content">
       <form>
         <mat-form-field class="formField">
           <input
@@ -50,12 +50,7 @@
       </form>
     </mat-card-content>
     <mat-card-actions>
-      <button
-        mat-raised-button
-        class="button"
-        (click)="editUser()"
-        color="primary"
-      >
+      <button mat-raised-button class="button" (click)="editUser()" color="primary">
         Edit
       </button>
     </mat-card-actions>
